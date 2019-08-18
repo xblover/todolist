@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e869188f-358b-4fb5-9445-9e985640ec28" name="Default Changelist" comment="" />
+    <list default="true" id="e869188f-358b-4fb5-9445-9e985640ec28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/todolist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todolist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/JosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/JosController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/JosTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/JosTest.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +24,12 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
     <include_path>
@@ -97,10 +114,19 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1P2tJFNebaxQSoARL9w4ybPkpug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -119,9 +145,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.JosTest.verify_jos_proxy">
-    <configuration name="JosTest.verify_jos_proxy" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\JosTest" file="$PROJECT_DIR$/tests/Unit/JosTest.php" method="verify_jos_proxy" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.TokenTest.when_checked_at_within_five_minutes">
+    <configuration name="JosTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\JosTest" file="$PROJECT_DIR$/tests/Unit/JosTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JosTest.fetch_order_successful_when_local_has_one_order" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\JosTest" file="$PROJECT_DIR$/tests/Unit/JosTest.php" method="fetch_order_successful_when_local_has_one_order" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TokenManagerRemoteTest.route_is_not_authed_when_token_cannot_be_verified" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Integration\TokenManagerRemoteTest" file="$PROJECT_DIR$/tests/Integration/TokenManagerRemoteTest.php" method="route_is_not_authed_when_token_cannot_be_verified" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TokenTest.when_checked_at_over_five_minutes" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\TokenTest" file="$PROJECT_DIR$/tests/Unit/TokenTest.php" method="when_checked_at_over_five_minutes" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TokenTest.when_checked_at_within_five_minutes" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\TokenTest" file="$PROJECT_DIR$/tests/Unit/TokenTest.php" method="when_checked_at_within_five_minutes" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -130,7 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.JosTest.verify_jos_proxy" />
+        <item itemvalue="PHPUnit.TokenTest.when_checked_at_within_five_minutes" />
+        <item itemvalue="PHPUnit.TokenTest.when_checked_at_over_five_minutes" />
+        <item itemvalue="PHPUnit.TokenManagerRemoteTest.route_is_not_authed_when_token_cannot_be_verified" />
+        <item itemvalue="PHPUnit.JosTest.fetch_order_successful_when_local_has_one_order" />
+        <item itemvalue="PHPUnit.JosTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,11 +192,22 @@
       <updated>1565083944555</updated>
       <workItem from="1565083946615" duration="245000" />
       <workItem from="1565084254943" duration="120000" />
-      <workItem from="1566003856005" duration="2604000" />
+      <workItem from="1566003856005" duration="15514000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

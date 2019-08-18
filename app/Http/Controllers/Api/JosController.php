@@ -5,11 +5,11 @@ namespace App\Http\Controllers\Api;
 
 
 use App\Jos\JosProxy;
-use Illuminate\Support\Facades\Request;
+use \Illuminate\Http\Request;
 
 class JosController
 {
-    public function josProxy(\Illuminate\Http\Request $request)
+    public function josProxy(Request $request)
     {
         $params = [];
         $params['app_key'] = $request->get('app_key');
@@ -21,5 +21,10 @@ class JosController
         $params['sign'] = $request->get('sign');
 
         return json_encode(app(JosProxy::class)->send($params));
+    }
+
+    public function fetchOrder()
+    {
+
     }
 }

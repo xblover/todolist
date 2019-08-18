@@ -30,3 +30,14 @@ Route::POST('register','UserController@register')->name('register');
 Route::POST('login','UserController@login')->name('login');
 
 Route::post('api/jos-proxy', 'Api\JosController@josProxy');
+
+Route::middleware(['auth.token'])->group(function (){
+    Route::get('api/orders/fetch', 'Api\JosController@fetchOrder');
+    Route::post('auth','TestController@testAuth')->name('auth');
+
+});
+
+
+
+
+
